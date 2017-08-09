@@ -57,5 +57,5 @@ router.get('/userlist', function(req, res) {
 });
 module.exports = router;
 //nava teja
-//Rajkamal commit after creating new branch
+//Rajkamal commit
 
