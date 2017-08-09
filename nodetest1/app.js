@@ -14,6 +14,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 // By Chinnapa
 var app = express();
+//
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -56,7 +57,7 @@ if (app.get('env') === 'development') {
         });
     });
 }
-
+// Add the branch by chinnapa
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
