@@ -68,5 +68,5 @@ app.use(function(err, req, res, next) {
     });
 });
 
-module.exports = app;
+
 // Adding by chinnapa
